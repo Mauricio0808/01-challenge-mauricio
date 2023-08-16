@@ -1,0 +1,7 @@
+- Given a data file `./data/products-API.js`, To create a product page list with all the products in the data file.
+- The page should be responsive and should be able to display the products in a grid view.
+- The page should have a tittle and a description.
+- the product card should have an images, title, description, price, percentage discount, rating, stock, brand, category, and a button to add the product to the cart.
+- The product card should be responsive and should be able to display the products in a grid view.
+- The button should be have a hover effect.
+- The product card should show the before and after price if there is a discount.
