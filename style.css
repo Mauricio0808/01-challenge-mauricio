@@ -77,6 +77,43 @@ nav {
   .navbar-shoping-cart img {
   width: 35px;
   height: 35px;
-  position: relative;
-    
+  position: relative;   
+  }
+
+  .menu-escritorio {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background: white;
+    width: 100px;
+    height: auto;
+    border: 1px solid rgba(111, 255, 0, 0.349);
+    border-radius: 6px;
+    padding: 20px 20px 0 20px;
+  }
+  .menu-escritorio ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu-escritorio ul li {
+    text-align: end;
+  }
+  .menu-escritorio ul li:nth-child(1),
+  .menu-escritorio ul li:nth-child(2) {
+    font-weight: bold;
+  }
+  .menu-escritorio ul li:last-child {
+    padding-top: 20px;
+    border-top: 1px solid greenyellow;
+  }
+  .menu-escritorio ul li:last-child a {
+    color: gray;
+    font-size: 14px;
+  }
+  .menu-escritorio ul li a {
+    color: rgba(0, 0, 0, 0.808);
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
   }
