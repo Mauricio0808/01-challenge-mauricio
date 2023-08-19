@@ -1,0 +1,82 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+.inactive {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid gray;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar-lef ul,
+  .navbar-right ul {  
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 55px;
+  }
+  .navbar-left {
+    display: flex;
+   
+  }
+  .navbar-lef ul {
+    margin-left: 14px;
+    font-size: 14px;
+  }
+  .navbar-right ul {
+    display: flex;
+    margin-right: 14px;
+    font-size: 14px;
+  }
+
+  .navbar-lef ul li a,
+  .navbar-right ul li a {
+    text-decoration: none;
+    color: gray;
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .navbar-lef ul li a:hover,
+  .navbar-right ul li a:hover {
+    border: 1px orange;
+    color: orange;
+  }
+  .navbar-email {    
+    color: gray;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 12px;
+    
+  }
+
+  .navbar-shoping-cart {
+    position: relative;
+  }
+
+  .navbar-shoping-cart img {
+  width: 35px;
+  height: 35px;
+  position: relative;
+    
+  }
